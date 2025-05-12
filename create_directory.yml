@@ -1,7 +1,6 @@
 ---
 - name: Create a directory using Ansible
   hosts: all
-  become: true
   tasks:
     - name: Create a /tmp/demo_dir directory
       file:
