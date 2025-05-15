@@ -1,6 +1,7 @@
 ---
 - name: Install Apache2
   hosts: all
+  become: true
 
   tasks:
     - name: Update apt cache
